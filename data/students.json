@@ -6,8 +6,8 @@
   "students": [
     {
       "id": 1,
-      "name": "أحمدالديـــب",
-      "image": "images\\students\\aldeeb.jpeg",
+      "name": "أحمد الديـــب",
+      "image": "images/students/aldeeb.jpeg",
       "quote": "الحكايات التي تنتهي، لا تنتهي ما دامت قابلةً لأن تروى.",
       "email": "ahmed.h@example.com",
       "linkedin": "#",
