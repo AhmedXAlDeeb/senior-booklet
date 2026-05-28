@@ -75,12 +75,14 @@ const CLASS_DATA = {
 
 const getImageSrc = (src) => {
   if (!src) return 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop';
-  return src;
+  if (src.startsWith('http') || src.startsWith('data:')) return src;
+  return `${import.meta.env.BASE_URL}${src.replace(/^\/+/, '')}`;
 };
 
 const getGroupPhotoSrc = (src) => {
   if (!src) return 'https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=1600&h=900&fit=crop';
-  return src;
+  if (src.startsWith('http') || src.startsWith('data:')) return src;
+  return `${import.meta.env.BASE_URL}${src.replace(/^\/+/, '')}`;
 };
 
 const StudentCard = ({ student, onClick }) => (
