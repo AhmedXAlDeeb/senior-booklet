@@ -1,0 +1,18 @@
+{
+  "className": "SBME 2026",
+  "department": "Biomedical Engineering",
+  "university": "Cairo University",
+  "groupPhoto": null,
+  "students": [
+    {
+      "id": 1,
+      "name": "أحمدالديـــب",
+      "image": "public\\images\\students\\aldeeb.jpeg",
+      "quote": "الحكايات التي تنتهي، لا تنتهي ما دامت قابلةً لأن تروى.",
+      "email": "ahmed.h@example.com",
+      "linkedin": "#",
+      "github": "#"
+    }
+   
+  ]
+}
