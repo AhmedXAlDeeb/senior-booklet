@@ -10,68 +10,6 @@ import {
   Heart
 } from 'lucide-react';
 
-const CLASS_DATA = {
-  className: "SBME 2026",
-  department: "Biomedical Engineering",
-  university: "Cairo University",
-  groupPhoto: null,
-  students: [
-    {
-      id: 1,
-      name: "Ahmed Hassan",
-      image: null,
-      quote: "Engineering the future of healthcare, one heartbeat at a time. SBME 2026 was just the beginning.",
-      email: "ahmed.h@example.com",
-      linkedin: "#",
-      github: "#"
-    },
-    {
-      id: 2,
-      name: "سارة إبراهيم",
-      image: null,
-      quote: "خمس سنوات من السهر والتعب في المعامل. الهندسة الطبية هي الشغف الذي لن ينتهي أبدًا.",
-      email: "sarah.i@example.com",
-      linkedin: "#",
-      github: "#"
-    },
-    {
-      id: 3,
-      name: "Omar Zayed",
-      image: null,
-      quote: "Data is the new biology. Proud to be part of the most resilient class ever.",
-      email: "omar.z@example.com",
-      linkedin: "#",
-      github: "#"
-    },
-    {
-      id: 4,
-      name: "لينا محمود",
-      image: null,
-      quote: "شكراً لكل من دعمني في هذه الرحلة. دفعة 2026 ستصنع الفارق!",
-      email: "lina.m@example.com",
-      linkedin: "#",
-      github: "#"
-    },
-    {
-      id: 5,
-      name: "Youssef Ali",
-      image: null,
-      quote: "Design is not just how it looks, but how it helps people move. SBME '26 Forever.",
-      email: "youssef.a@example.com",
-      linkedin: "#",
-      github: "#"
-    },
-    {
-      id: 6,
-      name: "Mariam Soliman",
-      image: null,
-      quote: "Growing cells and growing friendships. The best chapter of my life.",
-      email: "mariam.s@example.com",
-      linkedin: "#",
-      github: "#"
-    }
-  ]
-};
 
 const getImageSrc = (src) => {
   if (!src) return 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop';
